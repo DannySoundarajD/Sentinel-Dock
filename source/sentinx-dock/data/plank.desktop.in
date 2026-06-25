@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SentinX Dock
+GenericName=Dock
+Comment=AI-First dock for SentinX OS
+Categories=Utility;
+Type=Application
+Exec=plank
+Icon=plank
+Terminal=false
+NoDisplay=false
