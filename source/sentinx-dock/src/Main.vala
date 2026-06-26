@@ -58,12 +58,12 @@ namespace Plank
 				build_version_info : Build.VERSION_INFO,
 			
 				program_name : "SentinX Dock",
-				exec_name : "plank",
-			
+				exec_name : "sentinx-dock",
+							
 				app_copyright : "2011-2023",
 				app_dbus : "net.launchpad.plank",
-				app_icon : "plank",
-				app_launcher : "plank.desktop",
+				app_icon : "sentinx-dock",
+				app_launcher : "sentinx-dock.desktop",
 			
 				main_url : "https://launchpad.net/plank",
 				help_url : "https://answers.launchpad.net/plank",

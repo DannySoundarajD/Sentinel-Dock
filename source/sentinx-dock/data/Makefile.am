@@ -10,25 +10,25 @@ SUBDIRS += apport
 endif
 
 EXTRA_DIST = \
-	application-default-icon.svg \
-	plank.appdata.xml.in \
+	sentinx-dock-default-icon.svg \
+	sentinx-dock.appdata.xml.in \
 	net.launchpad.plank.gschema.xml.in \
-	plank.desktop.in \
+	sentinx-dock.desktop.in \
 	plank.gresource.xml \
 	poof.svg \
 	ui/preferences.ui \
 	$(NULL)
 
 CLEANFILES = \
-	plank.appdata.xml \
-	plank.desktop \
+	sentinx-dock.appdata.xml \
+	sentinx-dock.desktop \
 	$(gsettings_SCHEMAS) \
 	gschemas.compiled \
 	net.launchpad.plank.gschema.valid \
 	$(NULL)
 
 applicationsdir = $(datadir)/applications
-applications_DATA = plank.desktop
+applications_DATA = sentinx-dock.desktop
 
 appdatadir = $(datadir)/metainfo
 appdata_DATA = plank.appdata.xml

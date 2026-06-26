@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2016 Rico Tzschichholz <ricotz@ubuntu.com> -->
 <component type="desktop">
-  <id>plank.desktop</id>
+  <id>sentinx-dock.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>SentinX Dock</name>
   <summary>Stupidly simple.</summary>
