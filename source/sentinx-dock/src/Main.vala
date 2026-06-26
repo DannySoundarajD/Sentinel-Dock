@@ -60,14 +60,14 @@ namespace Plank
 				program_name : "SentinX Dock",
 				exec_name : "sentinx-dock",
 							
-				app_copyright : "2011-2023",
-				app_dbus : "net.launchpad.plank",
+				app_copyright : "2026",
+				app_dbus : "org.sentinx.dock",
 				app_icon : "sentinx-dock",
 				app_launcher : "sentinx-dock.desktop",
 			
-				main_url : "https://launchpad.net/plank",
-				help_url : "https://answers.launchpad.net/plank",
-				translate_url : "https://translations.launchpad.net/plank",
+				main_url : "https://github.com/DannySoundarajD/Sentinel-Dock",
+				help_url : "https://github.com/DannySoundarajD/Sentinel-Dock/issues",
+				translate_url : "https://github.com/DannySoundarajD/Sentinel-Dock",
 			
 				about_authors : authors,
 				about_documenters : documenters,

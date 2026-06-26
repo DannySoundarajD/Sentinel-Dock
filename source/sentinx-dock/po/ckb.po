@@ -17,11 +17,11 @@ msgstr ""
 "X-Launchpad-Export-Date: 2020-01-17 05:47+0000\n"
 "X-Generator: Launchpad (build f1052173880d8dae43faa7c2fc45da1b42227143)\n"
 
-#: ../data/plank.appdata.xml.in.h:1 ../data/plank.desktop.in.h:1
+#: ../data/sentinx-dock.appdata.xml.in.h:1 ../data/sentinx-dock.desktop.in.h:1
 msgid "Stupidly simple."
 msgstr "گەمژانە ئاسانە."
 
-#: ../data/plank.appdata.xml.in.h:2
+#: ../data/sentinx-dock.appdata.xml.in.h:2
 msgid ""
 "Plank is meant to be the simplest dock on the planet. The goal is to provide "
 "just what a dock needs and absolutely nothing more."
@@ -29,7 +29,7 @@ msgstr ""
 "مەبەستی پلانک ئەوەیە کە سادەترین دۆک بێ لەسەر هەسارەکە. ئامانجەکە بۆ "
 "دابینکردنی تەنها چ دۆکێک پێویستە وە بەتەواوی هیچی تر نییە."
 
-#: ../data/plank.appdata.xml.in.h:3
+#: ../data/sentinx-dock.appdata.xml.in.h:3
 msgid ""
 "It is, however, a library which can be extended to create other dock "
 "programs with more advanced features. Thus, Plank is the underlying "

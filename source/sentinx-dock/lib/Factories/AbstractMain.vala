@@ -406,7 +406,7 @@ namespace Plank
 			about_dlg.set_comments ("%s. %s".printf (program_name, build_release_name));
 			about_dlg.set_copyright ("Copyright © %s %s Developers".printf (app_copyright, program_name));
 			about_dlg.set_website (main_url);
-			about_dlg.set_website_label ("Website");
+			about_dlg.set_website_label ("GitHub");			
 			
 			if (about_authors != null && about_authors.length > 0)
 				about_dlg.set_authors (about_authors);

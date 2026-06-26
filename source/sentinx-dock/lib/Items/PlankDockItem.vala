@@ -36,7 +36,7 @@ namespace Plank
 		
 		PlankDockItem ()
 		{
-			GLib.Object (Prefs: new DockItemPreferences (), Text: "Plank", Icon: "plank");
+			GLib.Object (Prefs: new DockItemPreferences (), Text: "sentinx-dock", Icon: "plank");
 		}
 		
 		construct

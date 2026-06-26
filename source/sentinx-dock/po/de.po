@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/plank.appdata.xml.in:6 data/plank.desktop.in:3
+#: data/sentinx-dock.appdata.xml.in:6 data/sentinx-dock.desktop.in:3
 msgid "Plank"
 msgstr "Plank"
 
-#: data/plank.appdata.xml.in:7 data/plank.desktop.in:5
+#: data/sentinx-dock.appdata.xml.in:7 data/sentinx-dock.desktop.in:5
 msgid "Stupidly simple."
 msgstr "Lächerlich einfach."
 
-#: data/plank.appdata.xml.in:9
+#: data/sentinx-dock.appdata.xml.in:9
 msgid ""
 "Plank is meant to be the simplest dock on the planet. The goal is to provide "
 "just what a dock needs and absolutely nothing more."
@@ -33,7 +33,7 @@ msgstr ""
 "Plank soll das schlichteste Dock auf dem Planeten sein. Sein Ziel ist, genau "
 "die Funktionen bereitzustellen, die ein Dock haben muss, und sonst nichts."
 
-#: data/plank.appdata.xml.in:13
+#: data/sentinx-dock.appdata.xml.in:13
 msgid ""
 "It is, however, a library which can be extended to create other dock "
 "programs with more advanced features. Thus, Plank is the underlying "
@@ -47,11 +47,11 @@ msgstr ""
 "die nötigen Kernfunktionen zur Verfügung zu stellen, während Docky diese um "
 "schicke Dinge wie Docklets, Painters, Einstellungsdialoge usw. erweitert,"
 
-#: data/plank.appdata.xml.in:66
+#: data/sentinx-dock.appdata.xml.in:66
 msgid "The Plank Developers"
 msgstr "Die Plank Entwickler"
 
-#: data/plank.desktop.in:4
+#: data/sentinx-dock.desktop.in:4
 msgid "Dock"
 msgstr "Dock"
 

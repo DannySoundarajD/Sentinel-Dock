@@ -17,17 +17,17 @@ msgstr ""
 "X-Launchpad-Export-Date: 2018-02-25 05:24+0000\n"
 "X-Generator: Launchpad (build 18561)\n"
 
-#: ../data/plank.appdata.xml.in.h:1 ../data/plank.desktop.in.h:1
+#: ../data/sentinx-dock.appdata.xml.in.h:1 ../data/sentinx-dock.desktop.in.h:1
 msgid "Stupidly simple."
 msgstr "超シンプル"
 
-#: ../data/plank.appdata.xml.in.h:2
+#: ../data/sentinx-dock.appdata.xml.in.h:2
 msgid ""
 "Plank is meant to be the simplest dock on the planet. The goal is to provide "
 "just what a dock needs and absolutely nothing more."
 msgstr "\"Plank\"は地球上で最もシンプルなドックです。他に必要とする物が無いドックを提供することが目標です。"
 
-#: ../data/plank.appdata.xml.in.h:3
+#: ../data/sentinx-dock.appdata.xml.in.h:3
 msgid ""
 "It is, however, a library which can be extended to create other dock "
 "programs with more advanced features. Thus, Plank is the underlying "

@@ -1,0 +1,33 @@
+# Build artifacts
+source/sentinx-dock/autom4te.cache/
+source/sentinx-dock/build-aux/
+source/sentinx-dock/*.o
+source/sentinx-dock/*.lo
+source/sentinx-dock/*.la
+source/sentinx-dock/*.a
+source/sentinx-dock/.libs/
+source/sentinx-dock/**/.libs/
+source/sentinx-dock/**/.deps/
+source/sentinx-dock/**/*.o
+source/sentinx-dock/**/*.lo
+
+# Configure output
+source/sentinx-dock/config.status
+source/sentinx-dock/config.log
+source/sentinx-dock/libtool
+source/sentinx-dock/Makefile
+source/sentinx-dock/**/Makefile
+source/sentinx-dock/stamp-*
+source/sentinx-dock/config.h
+
+# Translation build files
+source/sentinx-dock/po/*.gmo
+source/sentinx-dock/po/*.gpo
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

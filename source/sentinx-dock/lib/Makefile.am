@@ -33,7 +33,7 @@ nodist_vapi_DATA = \
 	$(NULL)
 
 pkgconfigdir = $(libdir)/pkgconfig
-nodist_pkgconfig_DATA = plank.pc
+nodist_pkgconfig_DATA = sentinx-dock.pc
 
 
 lib_LTLIBRARIES = libplank.la
@@ -200,7 +200,7 @@ CLEANFILES = \
 	$(nodist_libplank_la_SOURCES) \
 	$(nodist_libplank_internal_la_SOURCES) \
 	build-abi \
-	plank.pc \
+	sentinx-dock.pc \
 	plank.vapi \
 	plank.h \
 	plank-internal.vapi \
@@ -214,7 +214,7 @@ EXTRA_DIST = \
 	abicheck.sh \
 	libplank.symbols \
 	plank.deps \
-	plank.pc.in \
+	sentinx-dock.in \
 	Version.vala.in \
 	$(NULL)
 

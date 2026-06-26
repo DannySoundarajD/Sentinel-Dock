@@ -18,11 +18,11 @@ msgstr ""
 "X-Generator: Launchpad (build 9eff1c37c1740693bdcba94d8f8c608164af5689)\n"
 "Language: szl\n"
 
-#: ../data/plank.appdata.xml.in.h:1 ../data/plank.desktop.in.h:1
+#: ../data/sentinx-dock.appdata.xml.in.h:1 ../data/sentinx-dock.desktop.in.h:1
 msgid "Stupidly simple."
 msgstr "Cołkym prosty."
 
-#: ../data/plank.appdata.xml.in.h:2
+#: ../data/sentinx-dock.appdata.xml.in.h:2
 msgid ""
 "Plank is meant to be the simplest dock on the planet. The goal is to provide "
 "just what a dock needs and absolutely nothing more."
@@ -30,7 +30,7 @@ msgstr ""
 "Plank mo być nojprostszym dokym na świecie. Cyl to je dać ino to, co dok "
 "potrzebuje i nic wiyncyj."
 
-#: ../data/plank.appdata.xml.in.h:3
+#: ../data/sentinx-dock.appdata.xml.in.h:3
 msgid ""
 "It is, however, a library which can be extended to create other dock "
 "programs with more advanced features. Thus, Plank is the underlying "

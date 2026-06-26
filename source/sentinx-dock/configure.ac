@@ -28,8 +28,8 @@ m4_define([plank_version], m4_if(plank_released, [1],
 m4_define([plank_major_minor_version], plank_major_version.plank_minor_version)
 m4_define([plank_module_version], plank_lt_current)
 
-AC_INIT([plank], plank_version,
-        [https://bugs.launchpad.net/plank], [plank],
+AC_INIT([sentinx-dock], plank_version,
+        [https://bugs.launchpad.net/plank], [sentinx-dock],
         [https://launchpad.net/plank])
 AC_DEFINE(RELEASE_NAME, "Stupidly simple.", Codename of this release)
 AC_DEFINE(VERSION_INFO, m4_if(plank_released, [1], "Release", "Development"), Version info for package)
@@ -351,7 +351,7 @@ data/apport/Makefile
 data/icons/Makefile
 data/themes/Makefile
 lib/Makefile
-lib/plank.pc
+lib/sentinx-dock.pc
 lib/Version.vala
 src/Makefile
 docklets/Makefile
