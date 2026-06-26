@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Rico Tzschichholz <ricotz@ubuntu.com> -->
+<component type="desktop">
+  <id>sentinx-dock.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>SentinX Dock</name>
+  <summary>Stupidly simple.</summary>
+  <summary xml:lang="zh-Hant-TW">極簡。</summary>
+  <summary xml:lang="zh-Hans-CN">简单得无语。</summary>
+  <summary xml:lang="vi">Cực kì đơn giản.</summary>
+  <summary xml:lang="uz-Latn">Ahmoqona darajada sodda.</summary>
+  <summary xml:lang="uk">Просто легкий.</summary>
+  <summary xml:lang="tr">Son derece basit.</summary>
+  <summary xml:lang="th">ง่ายเหี้ยๆ</summary>
+  <summary xml:lang="te">చాలా సరళమైనది.</summary>
+  <summary xml:lang="ta">மிகவும் எளிது</summary>
+  <summary xml:lang="szl">Cołkym prosty.</summary>
+  <summary xml:lang="sv">Galet enkelt.</summary>
+  <summary xml:lang="sr-Latn">Glupavo jenostavan.</summary>
+  <summary xml:lang="sr-Cyrl">Шашаво једноставно.</summary>
+  <summary xml:lang="sma">dle dan aelhkies.</summary>
+  <summary xml:lang="sl">Bedasto preprost.</summary>
+  <summary xml:lang="sk">Primitívne jednoduchý.</summary>
+  <summary xml:lang="ru">До безумного прост.</summary>
+  <summary xml:lang="ro">Stupid de simplu.</summary>
+  <summary xml:lang="pt-BR">Estupidamente simples.</summary>
+  <summary xml:lang="pt">Estupidamente simples.</summary>
+  <summary xml:lang="pl">Idiotycznie prosty.</summary>
+  <summary xml:lang="nn">Idiotsikkert</summary>
+  <summary xml:lang="nl">Belachelijk eenvoudig.</summary>
+  <summary xml:lang="ne">एकदमै सरल</summary>
+  <summary xml:lang="nb">Uforstandig enkelt.</summary>
+  <summary xml:lang="ms">Ringkas la sangat.</summary>
+  <summary xml:lang="ml">അനായാസം.</summary>
+  <summary xml:lang="lv">Muļķīgi vienkārši.</summary>
+  <summary xml:lang="lt">Kvailai paprastas.</summary>
+  <summary xml:lang="ko">어처구니없으리 만치 단순한.</summary>
+  <summary xml:lang="kab">D aḥerfi maḍi</summary>
+  <summary xml:lang="ka">ძალიან მარტივი აი ძალიან</summary>
+  <summary xml:lang="ja">超シンプル</summary>
+  <summary xml:lang="it">Stupidamente semplice.</summary>
+  <summary xml:lang="id">Begitu sederhana.</summary>
+  <summary xml:lang="hu">Nagyszerűen egyszerű.</summary>
+  <summary xml:lang="hr">Neviđeno jednostavan</summary>
+  <summary xml:lang="he">טפשי עד כמה שזה פשוט</summary>
+  <summary xml:lang="gl">Estupidamente simple.</summary>
+  <summary xml:lang="gd">Cho furasta 's a ghabhas.</summary>
+  <summary xml:lang="ga">Simplíocht shimplí.</summary>
+  <summary xml:lang="fr">Stupidement simple.</summary>
+  <summary xml:lang="fi">Todella yksinkertainen.</summary>
+  <summary xml:lang="eu">Erraza baino errazagoa.</summary>
+  <summary xml:lang="et">Hämmastavalt lihtne.</summary>
+  <summary xml:lang="es">Estúpidamente simple.</summary>
+  <summary xml:lang="eo">Stulte simple.</summary>
+  <summary xml:lang="en-GB">Stupidly simple.</summary>
+  <summary xml:lang="en-CA">Stupidly simple.</summary>
+  <summary xml:lang="en-AU">Stupidly simple.</summary>
+  <summary xml:lang="el">Βλακωδώς απλό.</summary>
+  <summary xml:lang="de">Lächerlich einfach.</summary>
+  <summary xml:lang="da">Super simpel.</summary>
+  <summary xml:lang="cs">Stupidně jednoduchý.</summary>
+  <summary xml:lang="ckb">گەمژانە ئاسانە.</summary>
+  <summary xml:lang="ca">Estúpidament simple.</summary>
+  <summary xml:lang="bs-Latn">Glupavo jednostavan.</summary>
+  <summary xml:lang="bg">Пределно прост.</summary>
+  <summary xml:lang="be-Cyrl">Вельмі простая.</summary>
+  <summary xml:lang="ar">بسيط بغباء.</summary>
+  <summary xml:lang="am">በጣም ቀላል</summary>
+  <description>
+    <p>
+      SentinX Dock is meant to be the simplest dock on the planet. The goal is to provide just what a dock needs and
+      absolutely nothing more.
+    </p>
+    <p>
+      It is, however, a library which can be extended to create other dock programs with more advanced features.
+      Thus, SentinX Dck is the underlying technology for Docky (starting in version 3.0.0) and aims to provide all the
+      core features while Docky extends it to add fancier things like Docklets, painters, settings dialogs, etc.
+    </p>
+  </description>
+  <keywords>
+    <keyword>dock</keyword>
+    <keyword>launch</keyword>
+    <keyword>panel</keyword>
+    <keyword>start</keyword>
+  </keywords>
+  <url type="homepage">https://launchpad.net/plank</url>
+  <url type="bugtracker">https://bugs.launchpad.net/plank</url>
+  <url type="faq">https://answers.launchpad.net/plank</url>
+  <url type="translate">https://translations.launchpad.net/plank</url>
+  <provides>
+    <library>libplank.so.1</library>
+    <binary>plank</binary>
+  </provides>
+  <releases>
+    <release version="0.11.89" timestamp="1566230400"/>
+    <release version="0.11.4" timestamp="1490644800"/>
+    <release version="0.11.3" timestamp="1481047200"/>
+    <release version="0.11.2" timestamp="1465190929"/>
+    <release version="0.11.1" timestamp="1459324800"/>
+    <release version="0.11.0" timestamp="1457816400"/>
+    <release version="0.10.1" timestamp="1444388400"/>
+    <release version="0.10.0" timestamp="1441623600"/>
+    <release version="0.9.1" timestamp="1430564400"/>
+    <release version="0.9.0" timestamp="1428836400"/>
+    <release version="0.8.1" timestamp="1422187200"/>
+    <release version="0.8.0" timestamp="1420200000"/>
+    <release version="0.7.1" timestamp="1411470000"/>
+    <release version="0.7.0" timestamp="1410778800"/>
+    <release version="0.6.1" timestamp="1400583600"/>
+    <release version="0.6.0" timestamp="1397473200"/>
+    <release version="0.5.0" timestamp="1384689600"/>
+    <release version="0.4.0" timestamp="1382094000"/>
+    <release version="0.3.0" timestamp="1372158000"/>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://people.ubuntu.com/~ricotz/appdata/plank_dock.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://people.ubuntu.com/~ricotz/appdata/plank_preferences_appearance.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://people.ubuntu.com/~ricotz/appdata/plank_preferences_behaviour.png</image>
+    </screenshot>
+  </screenshots>
+  <project_license>GPL-3.0</project_license>
+  <developer_name>The SentinX Developers</developer_name>
+  <update_contact>ricotz_at_ubuntu.com</update_contact>
+</component>

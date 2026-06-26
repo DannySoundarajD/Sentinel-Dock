@@ -1,6 +1,6 @@
 include $(top_srcdir)/Makefile.common
 
-plank_VALAFLAGS = \
+sentinx_dock_VALAFLAGS = \
 	$(COVERAGE_VALAFLAGS) \
 	$(PLANK_CORE_VALAFLAGS) \
 	$(top_builddir)/lib/plank.vapi \
@@ -9,49 +9,49 @@ plank_VALAFLAGS = \
 	-C \
 	$(NULL)
 
-BUILT_SOURCES = plank_vala.stamp
+BUILT_SOURCES = sentinx_dock_vala.stamp
 
-bin_PROGRAMS = plank
+bin_PROGRAMS = sentinx-dock
 
-plank_CFLAGS = \
+sentinx_dock_CFLAGS = \
 	$(COVERAGE_CFLAGS) \
 	$(PLANK_CORE_CFLAGS) \
 	-include config.h \
 	-I$(top_builddir)/lib \
 	$(NULL)
 
-plank_LDADD = \
+sentinx_dock_LDADD = \
 	$(COVERAGE_LDFLAGS) \
 	$(PLANK_CORE_LIBS) \
 	$(top_builddir)/lib/libplank.la \
 	$(NULL)
 
-plank_LDFLAGS = \
+sentinx_dock_LDFLAGS = \
 	-L$(pkglibdir) \
 	$(NULL)
 
-plank_VALASOURCES = \
+sentinx_dock_VALASOURCES = \
 	Main.vala \
 	$(NULL)
 
-nodist_plank_SOURCES = \
-	$(plank_VALASOURCES:.vala=.c) \
+nodist_sentinx_dock_SOURCES = \
+	$(sentinx_dock_VALASOURCES:.vala=.c) \
 	$(NULL)
 
-$(plank_VALASOURCES:.vala=.c): plank_vala.stamp
+$(sentinx_dock_VALASOURCES:.vala=.c): sentinx_dock_vala.stamp
 
-plank_vala.stamp: $(plank_VALASOURCES) $(top_builddir)/lib/plank.vapi Makefile
+sentinx_dock_vala.stamp: $(sentinx_dock_VALASOURCES) $(top_builddir)/lib/plank.vapi Makefile
 	$(AM_V_VALA)$(VALAC) \
-		$(plank_VALAFLAGS) \
+		$(sentinx_dock_VALAFLAGS) \
 		$(filter %.vala %.c,$^)
 	$(AM_V_at)touch $@
 
 CLEANFILES = \
-	plank_vala.stamp \
-	$(nodist_plank_SOURCES) \
+	sentinx_dock_vala.stamp \
+	$(nodist_sentinx_dock_SOURCES) \
 	$(NULL)
 
 EXTRA_DIST = \
-	$(plank_VALASOURCES) \
+	$(sentinx_dock_VALASOURCES) \
 	$(NULL)
 

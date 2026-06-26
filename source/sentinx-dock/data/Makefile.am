@@ -31,7 +31,7 @@ applicationsdir = $(datadir)/applications
 applications_DATA = sentinx-dock.desktop
 
 appdatadir = $(datadir)/metainfo
-appdata_DATA = plank.appdata.xml
+appdata_DATA = sentinx-dock.appdata.xml
 
 gsettings_SCHEMAS = net.launchpad.plank.gschema.xml
 
